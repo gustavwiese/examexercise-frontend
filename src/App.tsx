@@ -3,7 +3,6 @@ import ProductPage from './pages/ProductPage'
 import { ProductProvider } from './contexts/ProductsContext'
 import DeliveryPage from './pages/DeliveryPage'
 import { DeliveriesProvider } from './contexts/DeliveriesContext'
-// Import the ProductProvider
 
 export default function App() {
     return (
