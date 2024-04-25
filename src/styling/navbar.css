@@ -1,0 +1,18 @@
+.ul-navbar {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: rgb(228, 232, 248);
+    border-radius: 10px;
+}
+
+.navbar-link {
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+
+.navbar-link:hover {
+    color: #4caf50;
+}

@@ -1,0 +1,67 @@
+.order-details-container {
+    position: absolute;
+    z-index: 9999; /* Adjust as needed */
+    top: 50%; /* Adjust as needed */
+    left: 50%; /* Adjust as needed */
+    transform: translate(-50%, -50%);
+    background-color: rgb(214, 212, 212);
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.order-details-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.order-details-header h3 {
+    background-color: rgb(228, 232, 248);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.order-table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.table-row-orders {
+    border-bottom: 1px solid black;
+}
+
+.add-order-button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.add-order-button {
+    background-color: rgb(113, 175, 113);
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    width: 150px;
+}
+
+.exit-button-container {
+    margin-top: -10px;
+    display: flex;
+    align-self: flex-end;
+}
+
+.order-details-exit-button {
+    background-color: none;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(214, 212, 212);
+    margin-top: 10px;
+    font-size: large;
+    cursor: pointer;
+}

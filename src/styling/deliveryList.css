@@ -1,0 +1,25 @@
+.delivery-list-table {
+    border-collapse: collapse;
+    width: 100%;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.table-row-delivery {
+    border-bottom: 1px solid #ddd;
+}
+
+.table-button-delivery {
+    background-color: #e66947;
+    color: white;
+    padding: 7px 10px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+    border-radius: 10px;
+}
+
+.table-button-delivery:hover {
+    opacity: 1;
+}
